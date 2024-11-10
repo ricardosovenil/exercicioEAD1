@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #676e03;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family: 'Georgia', serif;
+}
+
+/* Seção Sobre Mim */
+.sobre-mim, .galeria {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Layout de duas colunas */
+.sobre-mim, .galeria {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-mim p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Galeria de Imagens */
+.galeria ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.galeria li {
+    flex: 1;
+    padding: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
